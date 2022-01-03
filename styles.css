@@ -428,3 +428,28 @@ header .navbar ul li a:hover{
                 0 1rem 2rem rgba(0, 0, 0, .4) ;
 }
 
+/* Media Screen */
+@media screen and (max-width: 1000px){
+    body{
+        display: flex;
+        flex-wrap: wrap;
+        min-height: none;
+        height: 100%;
+    }
+    
+    header{
+        width: 100%;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .theme-toggler{
+        width: 100%;
+    }
+
+    .theme-toggler span{
+        display: inline-flex;
+    }
+}
